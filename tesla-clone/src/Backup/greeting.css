@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main__greeting {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.support {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+
+.App_support {
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.App_support strong {
+  font-size: 1.4rem;
+  color: #3a4b77;
+}
+
+.call_icon img {
+  margin-top: -40px;
+}
+
+.greeting img {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#comingsoon {
+  font-family: "Mulish";
+  color: #fe8d31;
+  font-size: 1.3rem;
+  line-height: 30px;
+  letter-spacing: 8px;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#comingsoon span {
+  color: #3a4b77;
+}
+
+.message button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe8d31;
+  border: none;
+  color: #ffff;
+  width: 130px;
+  height: 40px;
+
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.d-flex {
+  background-color: #3a4b77;
+  color: #ffff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  align-items: center;
+  width: 500px;
+}
+form input {
+  text-align: center;
+  width: 400px;
+  height: 40px;
+  border: 2px solid #d6cfca;
+  border-radius: 20px;
+}
+form label {
+  color: #fe8d31;
+  margin-top: 10px;
+}
+form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe8d31;
+  border: none;
+  color: #ffff;
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.knowmore {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.knowmore a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fe8d31;
+}
+.pop {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
